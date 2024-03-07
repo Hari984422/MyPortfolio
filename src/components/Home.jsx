@@ -29,7 +29,7 @@ const Home = () => {
     return (<div>
                 <div className="dashboard">
                     <div className="db1">
-                        <h1>Hi I'am <span>Niranjan</span> React Developer</h1>
+                        <h1>Hi I'am <span>Harish</span> React Developer</h1>
                         <div>
                         {/* <button>Contact me</button> */}
                         <button>
@@ -131,8 +131,8 @@ const Home = () => {
                     <div>
                         <h1 data-aos="fade-left">About my <span>WORK</span></h1>
                         <p data-aos="fade-right">I am a front end web developer and a passionate trainer , i have been 
-                            in 2 internal projects of an organization and i have trained more than <span>4000+</span> 
-                            engineering graduates on <span>HTML</span> , <span>CSS</span> and <span>JS</span> and <span>2000+</span> students on <span>React JS</span>
+                            in 2 internal projects of an organization and i have trained more than <span>2000+</span> 
+                            engineering graduates on <span>HTML</span> , <span>CSS</span> and <span>JS</span> and <span>500+</span> students on <span>React JS</span>
                         </p>
                         <img  data-aos="fade-up-left" src="https://cdn.dribbble.com/users/2403158/screenshots/5841419/how_to_get_support_2.gif" alt="" />
                     </div>
@@ -184,19 +184,19 @@ const Home = () => {
                                 
                                 <div class="social-buttons-container">
                                     <button class="social-button .social-button1">
-                                        <a href="https://www.instagram.com/niranjan_gowda360/">
+                                        <a href="https://www.facebook.com/harishg.harish.779">
                                         <svg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg" className="svg">
                                             <path d="M 9.9980469 3 C 6.1390469 3 3 6.1419531 3 10.001953 L 3 20.001953 C 3 23.860953 6.1419531 27 10.001953 27 L 20.001953 27 C 23.860953 27 27 23.858047 27 19.998047 L 27 9.9980469 C 27 6.1390469 23.858047 3 19.998047 3 L 9.9980469 3 z M 22 7 C 22.552 7 23 7.448 23 8 C 23 8.552 22.552 9 22 9 C 21.448 9 21 8.552 21 8 C 21 7.448 21.448 7 22 7 z M 15 9 C 18.309 9 21 11.691 21 15 C 21 18.309 18.309 21 15 21 C 11.691 21 9 18.309 9 15 C 9 11.691 11.691 9 15 9 z M 15 11 A 4 4 0 0 0 11 15 A 4 4 0 0 0 15 19 A 4 4 0 0 0 19 15 A 4 4 0 0 0 15 11 z"></path>
                                         </svg>
                                         </a>
                                     </button>
                                     <button class="social-button .social-button2">
-                                        <a href="https://www.facebook.com/niranjan.niru.14473">
+                                        <a href="https://www.facebook.com/harishg.harish.779">
                                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="svg"><path d="M12.001 2.002c-5.522 0-9.999 4.477-9.999 9.999 0 4.99 3.656 9.126 8.437 9.879v-6.988h-2.54v-2.891h2.54V9.798c0-2.508 1.493-3.891 3.776-3.891 1.094 0 2.24.195 2.24.195v2.459h-1.264c-1.24 0-1.628.772-1.628 1.563v1.875h2.771l-.443 2.891h-2.328v6.988C18.344 21.129 22 16.992 22 12.001c0-5.522-4.477-9.999-9.999-9.999z"></path></svg>
                                         </a>
                                     </button>
                                     <button class="social-button .social-button3">
-                                        <a href="https://www.linkedin.com/in/niranjan-m-79440b120/">
+                                        <a href="https://www.linkedin.com/in/harish-g-a168711bb">
                                             <svg xmlns="http://www.w3.org/2000/svg"className="svg" width="24" height="24" viewBox="0 0 24 24"><circle cx="4.983" cy="5.009" r="2.188"></circle><path d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path></svg>
                                         </a>
                                     </button>
@@ -211,7 +211,7 @@ const Home = () => {
                 </div>
 
                 <div className="projects" name="projects">
-                    {/* <video src={tech} loop autoPlay muted></video> */}
+                    <video src={tech} loop autoPlay muted></video>
                     <div className="card_box" data-aos="fade-down-left" data-aos-delay="000">
                         <span></span>
                         <img src={portfolio} alt="portfolio" />
